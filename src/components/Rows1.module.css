@@ -1,0 +1,34 @@
+.saladChinese,
+.soupBaker {
+  display: block;
+}
+.value {
+  margin: 0;
+  position: relative;
+  line-height: 24px;
+}
+.tableRowItems {
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-7xs) 0;
+}
+.rows,
+.tableBodyContainer,
+.tableRowItems {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.tableBodyContainer {
+  border-bottom: 1px solid var(--color-gainsboro);
+  justify-content: center;
+  padding: 0 var(--padding-base) 0 var(--padding-xs);
+}
+.rows {
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--button-2-size);
+  color: var(--main-color-text-text-high-emphsis);
+  font-family: var(--button-2);
+}

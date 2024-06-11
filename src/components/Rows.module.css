@@ -1,0 +1,41 @@
+.businessBayue,
+.valgrubtechFood {
+  display: block;
+}
+.value {
+  margin: 0;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+.tableRowItems {
+  flex: 1;
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-7xs) 0;
+}
+.rows,
+.tableBodyContainer,
+.tableRowItems {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.tableBodyContainer {
+  flex: 1;
+  border-bottom: 1px solid var(--color-gainsboro);
+  justify-content: center;
+  padding: 0 var(--padding-11xl) 0 var(--padding-xs);
+}
+.rows {
+  height: 60px;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--button-2-size);
+  color: var(--main-color-text-text-high-emphsis);
+  font-family: var(--button-2);
+}
